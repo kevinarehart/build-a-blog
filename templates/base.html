@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="/static/main.css" />
+
+  <title>Kevin Arehart's Blog</title>
+</head>
+
+<body>
+  <p>Kevin Arehart's Blog<p>
+  <p>Want to create an entry? <a href="/blog/newpost">Write it here!</a></p>
+  <p>Want to view all entries? <a href="/blog/?">Check them out here!</a></p>
+
+  <div id="content">
+  {% block content %}
+  {% endblock %}
+  </div>
+</body>
+
+</html>
