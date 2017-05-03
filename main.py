@@ -68,7 +68,7 @@ class NewPost(BlogHandler):
             self.redirect('/blog/%s'% idTag)
 
         else:
-            error = "subject and content, please!"
+            error = "dude, come on!"
             self.render("newpost.html", subject=subject, content=content, error=error)
 
 
